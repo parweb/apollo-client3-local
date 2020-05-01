@@ -1,8 +1,7 @@
-
 export type VisiblityFilter = {
   id: string;
   displayName: string;
-}
+};
 
 export const VisibilityFilters: { [filter: string]: VisiblityFilter } = {
   SHOW_ALL: {
@@ -17,4 +16,4 @@ export const VisibilityFilters: { [filter: string]: VisiblityFilter } = {
     id: "show_active",
     displayName: "Active"
   }
-}
+};
